@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: lightblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-container {
+  background-color: white;
+  width: 100vw;
+  height: 45vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container1 {
+  height: 55vh;
+  width: 100vw;
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/subscribe-to-us-img.png");
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.label {
+  margin-top: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.errorMsg {
+  margin-top: 7px;
+  color: red;
+  margin-bottom: 0px;
+}
+
+.input {
+  border-radius: 7px;
+  border-width: 1px;
+  border-color: black;
+  height: 35px;
+  width: 250px;
+}
+
+.button {
+  margin-top: 5px;
 }
